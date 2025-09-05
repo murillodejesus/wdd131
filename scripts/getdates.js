@@ -1,8 +1,6 @@
-// Dynamically populate the current year
-const yearElement = document.getElementById('currentyear');
+const yearElement = document.getElementById('copyright-year');
 const currentYear = new Date().getFullYear();
-yearElement.textContent = currentYear;
+yearElement.textContent = `© ${currentYear} | Murillo de Jesus | São Bento do Sul, Brazil`;
 
-// Dynamically populate the last modified date
-const lastModifiedElement = document.getElementById('lastModified');
-lastModifiedElement.textContent = 'Last Modification: ' + document.lastModified;
+const lastModifiedElement = document.getElementById('last-modified');
+lastModifiedElement.textContent = 'Last Modified: ' + document.lastModified;
