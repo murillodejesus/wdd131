@@ -37,10 +37,10 @@ nav ul li a:hover {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 2em auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
 }
 main p {
@@ -51,6 +51,7 @@ main p {
     background-color: #ecf0f1;
     padding: 20px;
     border-radius: 8px;
+    grid-column: 1;
 }
 
 .card img {
@@ -62,6 +63,12 @@ main p {
     padding: 20px;
 }
 
+.devtools{
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    grid-column: 2;
+}
 footer {
     background-color: #34495e;
     color: #ecf0f1;
