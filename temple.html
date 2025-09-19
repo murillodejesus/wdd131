@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="A collection of beautiful temple images.">
+    <meta name="author" content="Murillo de Jesus">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 600px)">
+    
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu" aria-label="Toggle navigation menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+         <h1>Temple Images</h1>
+        <div class="gallery">
+            <figure>
+                <img src="images/temple1.jpg" alt="Temple Name 1" loading="lazy">
+                <figcaption>Washington D.C. Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple2.jpg" alt="Temple Name 2" loading="lazy">
+                <figcaption>Helena Montana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple3.jpg" alt="Temple Name 3" loading="lazy">
+                <figcaption>Salt Lake City Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple4.jpg" alt="Temple Name 4" loading="lazy">
+                <figcaption>Budapest Hungary Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple5.jpg" alt="Temple Name 5" loading="lazy">
+                <figcaption>São Paulo Brazil Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple6.jpg" alt="Temple Name 6" loading="lazy">
+                <figcaption>Brasília Brazil Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple7.jpg" alt="Temple Name 7" loading="lazy">
+                <figcaption>Colorado Springs Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/temple8.jpg" alt="Temple Name 8" loading="lazy">
+                <figcaption>Jaction Colorado Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p id="copyright-year"></p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>
