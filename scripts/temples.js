@@ -3,7 +3,13 @@ const navigation = document.querySelector(".navigation");
 
 menuButton.addEventListener("click", () => {
     navigation.classList.toggle("show");
-    menuButton.textContent = navigation.classList.contains("show") ? "X" : "☰";
+    
+   
+    if (navigation.classList.contains("show")) {
+        menuButton.textContent = "X";
+    } else {
+        menuButton.textContent = "☰";
+    }
 });
 
 

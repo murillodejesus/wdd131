@@ -1,15 +1,14 @@
-/* Estilos para telas maiores que 600px */
 header {
     flex-direction: row;
     justify-content: space-between;
 }
 
 #menu {
-    display: none; /* Esconde o botão hambúrguer em telas maiores */
+    display: none;
 }
 
 .navigation {
-    display: flex; /* Mostra o menu em telas maiores */
+    display: flex; 
     flex-direction: row;
     gap: 1rem;
     width: auto;
@@ -20,7 +19,7 @@ header {
     padding: 0.5rem 1rem;
 }
 
-/* Alterando o layout da galeria para 2 colunas */
+
 .gallery {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }

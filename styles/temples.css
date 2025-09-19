@@ -31,17 +31,16 @@ header h1 {
 }
 
 .navigation {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none; /* Esconde o menu por padrão no mobile */
+    display: none; 
     flex-direction: column;
     width: 100%;
     text-align: center;
+    list-style-type: none;
 }
 
+
 .navigation.show {
-    display: block; /* Mostra o menu quando a classe .show é adicionada */
+    display: block;
 }
 
 .navigation li a {
@@ -60,8 +59,8 @@ header h1 {
 
 main {
     padding: 1rem;
-    max-width: 960px; /* Limita a largura para melhor leitura */
-    margin: 0 auto; /* Centraliza a coluna principal */
+    max-width: 960px; 
+    margin: 0 auto; 
 }
 
 main h1 {
@@ -72,7 +71,7 @@ main h1 {
 .gallery {
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr; /* Uma coluna no mobile */
+    grid-template-columns: 1fr; 
 }
 
 .gallery figure {
