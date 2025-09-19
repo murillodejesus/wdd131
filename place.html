@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Brasil</title>
+    <meta name="description" content="Uma página sobre o Brasil, com informações e dados.">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Brasil</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/brazil-hero-small.webp" media="(min-width: 800px)">
+                <img src="images/brazil-hero-small.webp" alt="Uma imagem icónica do Brasil" loading="lazy" width="960" height="540">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Dados</h2>
+            <div class="data-grid">
+                <div class="data-item">
+                    <h3>Área</h3>
+                    <p>8.516.000 km²</p>
+                </div>
+                <div class="data-item">
+                    <h3>População</h3>
+                    <p>~217 milhões</p>
+                </div>
+                <div class="data-item">
+                    <h3>Capital</h3>
+                    <p>Brasília</p>
+                </div>
+                <div class="data-item">
+                    <h3>Línguas</h3>
+                    <p>Português</p>
+                </div>
+                <div class="data-item">
+                    <h3>Moeda</h3>
+                    <p>Real (BRL)</p>
+                </div>
+                <div class="data-item">
+                    <h3>Fuso Horário</h3>
+                    <p>GMT-3 (principal)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>Tempo</h2>
+            <div class="weather-grid">
+                <div class="weather-item">
+                    <img src="images/weather-icon.svg" alt="Ícone do tempo" width="50" height="50">
+                    <p class="weather-desc">Ensolarado</p>
+                </div>
+                <div class="weather-item">
+                    <h3>Temperatura:</h3>
+                    <p id="temperature">Carregando...</p>
+                </div>
+                <div class="weather-item">
+                    <h3>Vento:</h3>
+                    <p id="windSpeed">Carregando...</p>
+                </div>
+                <div class="weather-item">
+                    <h3>Sensação Térmica:</h3>
+                    <p id="windchill">Carregando...</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p id="copyright-year"></p>
+        <p id="last-modified"></p>
+    </footer>
+</body>
+</html>
