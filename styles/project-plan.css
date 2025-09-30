@@ -1,0 +1,82 @@
+body {
+    background-color: #F5F5F5;
+    color: #1e1e24;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fbaf00;
+    color: #1e1e24;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    color: #fbaf00;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 2px solid #1e1e24;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+ul, p {
+    margin-top: 10px;
+}
+
+.color-swatches {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.swatch {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #1e1e24;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.white { background-color: #FFFFFF; color: #1e1e24; }
+.dark-gray { background-color: #1e1e24; color: #ffffff; }
+.orange { background-color: #fbaf00; color: #1e1e24; }
+
+.wireframes {
+    text-align: center;
+}
+
+.wireframe-mobile, .wireframe-desktop {
+    background-color: #f0f0f0;
+    border: 1px dashed #888;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    margin-top: 10px;
+}
