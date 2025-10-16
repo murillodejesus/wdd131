@@ -1,0 +1,63 @@
+footer {
+    width: 100%;
+    background-color: var(--color-primary-2);
+    color: var(--color-neutral-0);
+    /* Remova qualquer margin-top que a imagem da onda possa ter gerado */
+    margin-top: 0; 
+    padding-top: 0; /* Garante que não haja padding extra no topo do footer */
+}
+
+/* Removido o estilo da imagem wave.svg */
+/* footer img {
+    width: 100%;
+    margin-bottom: -10px; 
+} */
+
+#footer_items {
+    display: flex;
+    flex-direction: row; /* Para manter o copyright e botões lado a lado */
+    align-items: center;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+    padding: 20px 8%; /* Ajusta o padding para um bom espaçamento interno */
+    flex-wrap: wrap; /* Garante que os itens quebrem a linha em telas menores */
+    gap: 15px; /* Espaço entre os elementos quando quebram a linha */
+}
+
+#copyright {
+    font-size: 0.9rem;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: var(--color-primary-5);
+    color: var(--color-neutral-1);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.social-media-buttons a:hover {
+    background-color: var(--color-primary-6);
+}
+
+@media screen and (max-width: 768px) {
+    #footer_items {
+        flex-direction: column; /* Empilha os itens em telas menores */
+        text-align: center; /* Centraliza o texto */
+        padding: 20px 5%; /* Ajusta padding para telas pequenas */
+    }
+
+    .social-media-buttons {
+        justify-content: center; /* Centraliza os botões */
+    }
+}
